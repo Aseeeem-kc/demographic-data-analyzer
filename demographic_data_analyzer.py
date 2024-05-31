@@ -5,7 +5,6 @@ def calculate_demographic_data(print_data=True):
     # Reading data with pandas
     df = pd.read_csv('adult.data.csv')
     
-    # Initialize dictionary to hold results
     results = {}
     
     # Task 1: How many people of each race are represented in this dataset?
